@@ -10,6 +10,10 @@
 
 Este proyecto simula una chisga o banda musical, en la que se generan aleatoriamente músicos e instrumentos, con un máximo de 10 músicos. Cada músico recibe un instrumento asignado, y luego se pueden realizar diversas operaciones como afinar los instrumentos, verificar su afinación y ejecutar una función musical.
 
+## Diagramas del Proyecto
+
+![Diagrama de clases del Proyecto]()
+
 ## Objetivos
 
 ### 1. Implementación de Buenas Prácticas de Programación y Diseño
