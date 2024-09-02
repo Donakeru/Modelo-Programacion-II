@@ -24,20 +24,28 @@ class Chisga:
         elif (nombre_instrumento == 'Tambora'):
             return Tambora()
     
-    def generarChisga(self):
+    def generar_chisga(self):
+        
         cantidad_musicos = random.randint(1,self.max_musicos)
-        print(cantidad_musicos)
-        print('--'*5)
+        print(f'Cantidad de músicos por generar: {cantidad_musicos}',)        
         for i in range(1, cantidad_musicos+1):
             instrumento = self.obtener_instancia(random.choice(self.listaInstrumentos))
             self.listaMusicos.append(Musico(nombre= f'Musico #{i}' ,instrumento_asignado=instrumento))
-        print(self.listaMusicos)
+            
+    def ver_integrantes(self):
+        if(len(self.listaMusicos) == 0):
+            print("NOTA: Por favor genere primero una chisga")
+        else:
+            print('-'*3, 'Alineación','-'*3)
+            for musico in self.listaMusicos:
+                print(f'{musico.nombre} tiene como instruemnto: {musico.instrumento_asignado.__class__.__name__}')
         
-    def afinarChisga(self):
+    def afinar_chisga(self):
     
         if(len(self.listaMusicos) == 0):
             print("Por favor genere primero una chisga")
         else:
+            print('-'*3, 'Afinación','-'*3)
             if(self.musicos_afinados == False):
                 for musico in self.listaMusicos:
                     if (musico.revisar_afinacion() == False):
@@ -47,7 +55,24 @@ class Chisga:
             else:
                 print("Los instrumentos ya está afinados")
                 
-    def empezarFuncion(self):
-        if(self.musicos_afinados == False):
-            print("Los músicos no han afinado ¡No pueden empezar!")
-            
+    def empezar_funcion(self):
+        if(len(self.listaMusicos) == 0):
+            print("Por favor genere primero una chisga")
+        else:
+            if(self.musicos_afinados == False):
+                print("Los músicos no han afinado ¡No pueden empezar!")
+            else:
+                
+                print(
+                    """
+                    +----------------------------+
+                    |   La función va a empezar  |
+                    +----------------------------+
+                    1...2...1...2...3...4
+                    """
+                )
+                
+                for musico in self.listaMusicos:
+                    print(f'{musico.nombre}: ')
+                    musico.tocar_instrumento()
+                    

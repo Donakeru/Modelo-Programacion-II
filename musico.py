@@ -5,10 +5,10 @@ class Musico:
         self.instrumento_asignado = instrumento_asignado
     
     def revisar_afinacion(self):
-        self.instrumento_asignado.afinado
+        return self.instrumento_asignado.afinado
     
     def afinar_instrumento(self):
         self.instrumento_asignado.afinar()
         
     def tocar_instrumento(self):
-        self.instrumento_asignado.tocar_instrumento()
+        self.instrumento_asignado.tocar()
