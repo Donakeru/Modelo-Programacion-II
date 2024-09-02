@@ -1,23 +1,23 @@
-SIMULACIÓN DE CHISGA 
+# SIMULACIÓN DE CHISGA 
 
-Participantes del Proyecto
+## Participantes del Proyecto
 
    - Luis Miguel Viuche Madroñero (20212020082)
    - Daniel Alejandro Chave Bustos (20212020109)
    - Dilan Stive Arboleda Zambrano (20212020105)
 
-Descripción del Proyecto
+## Descripción del Proyecto
 
 Este proyecto simula una chisga o banda musical, en la que se generan aleatoriamente músicos e instrumentos, con un máximo de 10 músicos. Cada músico recibe un instrumento asignado, y luego se pueden realizar diversas operaciones como afinar los instrumentos, verificar su afinación y ejecutar una función musical.
 
-Objetivos
+## Objetivos
 
-1. Implementación de Buenas Prácticas de Programación y Diseño
+### 1. Implementación de Buenas Prácticas de Programación y Diseño
    
    Este proyecto tiene como principal objetivo aplicar y demostrar el uso de buenas prácticas de programación, enfocándose en los siguientes principios:
    
-   - SOLID:
-      
+   #### - SOLID:
+
       Single Responsibility Principle (SRP): Cada clase en el sistema tiene una única responsabilidad. Por ejemplo, la clase Musico se encarga exclusivamente de gestionar aspectos relacionados con el músico, mientras que la clase Chisga se encarga de la administración del conjunto musical.
       
       Open/Closed Principle (OCP): Las clases están diseñadas para ser abiertas para la extensión pero cerradas para la modificación. Por ejemplo, se pueden añadir nuevos tipos de instrumentos sin necesidad de modificar la clase base Instrumento.
@@ -28,15 +28,15 @@ Objetivos
       
       Dependency Inversion Principle (DIP): Se invierte la dependencia entre las clases de alto y bajo nivel, promoviendo la utilización de abstracciones.
       
-   - KISS (Keep It Simple, Stupid):
+   #### - KISS (Keep It Simple, Stupid):
       
       El código se mantiene simple y directo, evitando complejidad innecesaria. Las funciones y métodos están diseñados para ser claros y fácilmente comprensibles.
 
-   - DRY (Don't Repeat Yourself):
+   #### - DRY (Don't Repeat Yourself):
       
       Se minimiza la duplicación de código mediante la reutilización de métodos y la implementación de clases base, como Instrumento.
 
-2. Simulación Realista
+### 2. Simulación Realista
 
    Se busca que la simulación sea lo más cercana posible a la realidad de una banda musical permitiendo:
    
@@ -45,3 +45,12 @@ Objetivos
    - La organización y ejecución de una función musical.
 
 
+## Requisitos del Proyecto
+
+Para ejecutar este proyecto, se necesita:
+
+- Python (versión 3.7 o superior)
+- Pip (para la gestión de paquetes y dependencias)
+- Visual Studio Code (como entorno de desarrollo)
+- Extensión de Python para Visual Studio Code (para facilitar la ejecución y depuración)
+- PlantUML (opcional, para la generación de diagramas)
