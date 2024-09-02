@@ -1,4 +1,4 @@
-# SIMULACIÓN DE CHISGA 
+# **SIMULACIÓN DE CHISGA** 
 
 ## Participantes del Proyecto
 
@@ -16,7 +16,7 @@ Este proyecto simula una chisga o banda musical, en la que se generan aleatoriam
    
    Este proyecto tiene como principal objetivo aplicar y demostrar el uso de buenas prácticas de programación, enfocándose en los siguientes principios:
    
-   #### - SOLID:
+   - SOLID:
 
       Single Responsibility Principle (SRP): Cada clase en el sistema tiene una única responsabilidad. Por ejemplo, la clase Musico se encarga exclusivamente de gestionar aspectos relacionados con el músico, mientras que la clase Chisga se encarga de la administración del conjunto musical.
       
@@ -28,11 +28,11 @@ Este proyecto simula una chisga o banda musical, en la que se generan aleatoriam
       
       Dependency Inversion Principle (DIP): Se invierte la dependencia entre las clases de alto y bajo nivel, promoviendo la utilización de abstracciones.
       
-   #### - KISS (Keep It Simple, Stupid):
+   - KISS (Keep It Simple, Stupid):
       
       El código se mantiene simple y directo, evitando complejidad innecesaria. Las funciones y métodos están diseñados para ser claros y fácilmente comprensibles.
 
-   #### - DRY (Don't Repeat Yourself):
+   - DRY (Don't Repeat Yourself):
       
       Se minimiza la duplicación de código mediante la reutilización de métodos y la implementación de clases base, como Instrumento.
 
