@@ -12,7 +12,9 @@ Este proyecto simula una chisga o banda musical, en la que se generan aleatoriam
 
 ## Diagramas del Proyecto
 
-![Diagrama de clases del Proyecto]()
+![Diagrama de clases del Proyecto](https://raw.githubusercontent.com/Donakeru/chisga/main/diagramas/diagrama_clase.png)
+
+
 
 ## Objetivos
 
