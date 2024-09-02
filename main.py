@@ -1,7 +1,8 @@
 
-from concrete_classes.guitarra import Guitarra
+from chisga import Chisga
 
+chisga = Chisga()
 
-mi_guitarra = Guitarra()
-
-mi_guitarra.tocar()
+chisga.generarChisga()
+chisga.afinarChisga()
+chisga.afinarChisga()
