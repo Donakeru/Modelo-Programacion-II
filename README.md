@@ -8,8 +8,7 @@ Objetivos
 
 1. Implementación de Buenas Prácticas de Programación y Diseño
    
-Este proyecto tiene como principal objetivo aplicar y demostrar el uso de buenas prácticas de programación, enfocándose en
-los siguientes principios:
+   Este proyecto tiene como principal objetivo aplicar y demostrar el uso de buenas prácticas de programación, enfocándose en los siguientes principios:
 
   - SOLID:
      
@@ -33,7 +32,7 @@ los siguientes principios:
 
 2. Simulación Realista
 
-Se busca que la simulación sea lo más cercana posible a la realidad de una banda musical, permitiendo:
+   Se busca que la simulación sea lo más cercana posible a la realidad de una banda musical permitiendo:
 
   - La generación aleatoria de músicos e instrumentos.
   - La afinación y verificación de instrumentos.
